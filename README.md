@@ -1,11 +1,14 @@
 # Hangman_project
 
-#Hangman Game Project in Bahasa
+## Hangman Game Project in Bahasa
+
 Simple Hangman Self Project for Learning Code, but try with ambitious feature :P
 
 ---
 
-##and this project will run in bahasa,, next i wil try to add :
+## Tasklist for this project :
+
+i will try to add something to decorate this simple game..
 
 - [x] tittle screen
 - [x] status screen (show how many tries? how many life left?)
