@@ -16,5 +16,12 @@ world_list = [
     'handphone',
     'buku',
     'sekolah',
-    
+
 ]
+
+world_dic = {
+    "pesawat": "sebuah moda transportasi",
+    "kamar mandi": "sebuah tempat pribadi ",
+    "kamar tidur": "tempat paling nyaman",
+    "gamewatch": "permainan handheld",
+}

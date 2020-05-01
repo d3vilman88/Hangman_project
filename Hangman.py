@@ -1,5 +1,5 @@
 import random
-from words import word_list
+from wordsindo import world_dic
 import Display
 import sys
 import os
@@ -7,8 +7,11 @@ import time
 
 
 def get_word():
-    word = random.choice(word_list)
+    word = random.choice(list(world_dic.keys()))
     return word.upper()
+
+
+# cluesget
 
 
 def play(word):
@@ -26,7 +29,6 @@ def play(word):
     print(word_completion)
     print("\n")
     Display.status_scrn(tries, word)
-    # print(f'tries = {tries} ')
     while not guessed and tries > 0:
         guess = input("ayo coba tebak kata atau hurufnya,,, ").upper()
         if len(guess) == 1 and guess.isalpha():
@@ -79,10 +81,16 @@ def play(word):
 
 def main():
     word = get_word()
+    clue = ""
+    if word in world_dic:
+        clue = world_dic[word]
+    print(clue)
     print(word)
     play(word)
     while input("mau main lagi? (Y/N)").upper() == "Y":
         word = get_word()
+        print(clue)
+        print(word)
         play(word)
 
 

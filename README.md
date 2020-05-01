@@ -12,5 +12,6 @@ i will try to add something to decorate this simple game..
 
 - [x] tittle screen
 - [x] status screen (show how many tries? how many life left?)
-- [ ] adding some clue for the word
+- [ ] adding some clue for the word function
 - [ ] adding a length of the word in my word so it will give some clue to the player
+- [ ] when i use space on keyword, it cannot be replace,, find a way to replace it.

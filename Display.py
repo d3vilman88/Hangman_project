@@ -2,6 +2,7 @@ import os
 import time
 import sys
 from Hangman import main
+from wordsindo import world_dic
 
 
 def display_hangman(tries):
@@ -14,7 +15,7 @@ def display_hangman(tries):
                 ===   |     \\|/  ===
                 ===   |      |   ===
                 ===   |     / \\  ===
-                ===   -          ===     
+                ===   -          ===
                 ====================
                 """,
                 # head, torso, both arms, and one leg
@@ -26,7 +27,7 @@ def display_hangman(tries):
                  ===  |     \\|/  ===
                  ===  |      |   ===
                  ===  |     /    ===
-                 ===  -          ===   
+                 ===  -          ===
                  ===================
                 """,
                 # head, torso, and both arms
